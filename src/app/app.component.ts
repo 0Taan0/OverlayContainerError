@@ -16,7 +16,7 @@ export class AppComponent implements OnInit {
   }
 
   private setTheme(): void {
-    const cssClass = `bw`;
+    const cssClass = `theme-is-activated-by-class-selector`;
     const classList: DOMTokenList = this.overlayContainer.getContainerElement()
       .classList;
 
